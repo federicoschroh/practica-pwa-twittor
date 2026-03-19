@@ -1,3 +1,7 @@
+import { registerWorkerService } from './sw-register.js';
+
+registerWorkerService();
+
 // Referencias de jQuery
 
 var titulo = $('#titulo');
