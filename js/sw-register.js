@@ -1,6 +1,6 @@
 export const registerWorkerService = () => {
     if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('../sw.js');
+        navigator.serviceWorker.register('/practica-pwa-twittor/sw.js');
     } else {
         console.warn("Navigator doesn't support ServiceWorkers");
     }
