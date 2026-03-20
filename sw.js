@@ -6,7 +6,7 @@ const STATIC_CACHE_PREFIX = "static";
 const DYNAMIC_CACHE_PREFIX = "dynamic";
 const INMUTABLE_CACHE_PREFIX = "inmutable";
 
-const STATIC_CACHE_VERSION = 'v1';
+const STATIC_CACHE_VERSION = 'v2';
 const DYNAMIC_CACHE_VERSION = 'v1';
 const INMUTABLE_CACHE_VERSION = 'v1';
 
