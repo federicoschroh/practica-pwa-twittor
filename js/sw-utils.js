@@ -13,8 +13,7 @@ const cleanOldCacheVersions = (cachePrefix, cacheName) => {
     return caches.keys().then(keys => {
         keys.forEach(key => {
             if (key.includes(cachePrefix) && key !== cacheName) {
-                caches.delete(key);
-                return;
+                return caches.delete(key);
             }
         });
     });
